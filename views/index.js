@@ -1,3 +1,5 @@
+//hide url
+
 //onload
 function clearLoad(){
     setTimeout(function() {
