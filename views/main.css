@@ -94,6 +94,10 @@
     height: 100vh;
   }
 
+  #myCarousel {
+    display: none;
+  }
+
   .headClass > h1{
     font-size: 60px;
   }
