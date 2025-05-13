@@ -89,6 +89,17 @@
 
 }
 
+@media screen and (max-width: 500px) {
+  .container-home {
+    height: 100vh;
+  }
+
+  .headClass > h1{
+    font-size: 60px;
+  }
+  
+}
+
 .content {
     display: flex;
     width: 100%;
@@ -195,6 +206,18 @@ footer {
     from { transform: rotate(0turn)}
     to { transform: rotate(1turn)}
 }
+
+body { 
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+
+  .loadScreen::after {
+    width: 200px;
+    height: 200px;
+  }
+} 
 
 .loadImg {
     width: 20%;
